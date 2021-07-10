@@ -27,6 +27,14 @@ header {
     padding-left: 30px;
 }
 
+.fa-plus-circle {
+    position: fixed;
+    font-size: 40px;
+    color: #00669F;
+    right: 20px;
+    top: 300px;
+}
+
 .main-cont {
     display: flex;
     flex-wrap: wrap;
@@ -48,7 +56,7 @@ header {
     box-shadow: 0 7px rgba(0, 0, 0, 0.1);
 }
 
-.fas {
+.fa-heart {
     position: absolute;
     color: rgba(255, 0, 0, 0.8);
     font-size: 40px;
@@ -101,8 +109,8 @@ a:link {
 }
 
 a:hover {
-    background-color: blanchedalmond;
-    color: black;
+    background-color: #6ba0be;
+    color: rgb(12, 27, 236);
 }
 
 footer {
